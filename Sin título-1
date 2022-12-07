@@ -1,0 +1,81 @@
+
+
+
+.centrado {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -wecentrado-porcentualbkit-transform: translate(-50%, -50%);
+}
+
+#container {
+	height: 300px;
+	width: 75%;
+
+}
+
+#icono {
+	position:relative;
+	top: 0px;
+	width: 300px;
+	height: 300px;
+	background-color: rgba(0,0,0,0.0);
+
+	/* Aqui colocamos la transicion para cada navegador */
+	-webkit-transition: all 0.3s ease;  /* Chrome y Safari */
+	-o-transition: all 0.3s ease;  /* Opera */
+	-moz-transition: all 0.3s ease;  /* Mozilla Firefox */
+	-ms-transition: all 0.3s ease;   /* Internet Explorer */
+	transition: all 0.3s ease;  /* W3C */
+	/* Fin transicion*/
+	
+	z-index:2;
+	color: #fff;
+	overflow: hidden;
+	text-align:center;
+	font-size:0px;
+	opacity: 0.3;
+	padding-top: 150px;
+	border-radius: 300px; 	
+	
+}
+
+#icono:hover {
+font-size:150px;
+	cursor:pointer;
+	background-color: rgba(0,0,0,0.9);
+	opacity: 0.3;
+	padding-top: 75px;
+
+}
+
+#ej2:hover {
+	background-color: rgba(255,255,255,0.4);
+}
+
+#circulo1,
+#circulo2,
+#circulo3 {
+	width: 300px;
+	height: 300px;
+	z-index: 1;
+	float: left;
+	border: 5px solid #FFF;
+	overflow: hidden;
+	border-radius: 300px;
+	text-align: center;
+}
+
+#circulo1{
+	background-image: url(images/compose-1.jpg);
+}
+#circulo2{
+	background-image: url(images/compose-2.jpg);
+}
+#circulo3{
+	background-image: url(images/compose-3.jpg);
+}
+
+
+

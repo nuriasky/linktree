@@ -1,0 +1,66 @@
+        /*LOGO*/
+img {
+    width: 100%;
+    height: auto;
+}
+#caja {
+    
+    width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -40px;
+}
+
+        /*LISTA*/
+ul {
+    list-style: none;
+    margin-left: -30px;
+}
+
+li {
+    font-size: 35px;
+    font-family: montserrat medium;
+    margin-top: 45px;
+    color: #ffffff;
+    background-color: #9b9b9b;
+    padding: 25px;
+    border-radius: 100px;
+    width: 90%;
+    text-align: center;
+    float: left;
+    
+        transition-property: background-color, transform;
+        transition-duration: 500ms;
+        transition-timing-function:cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+li:hover {
+        transform: scale(1.04);
+        background-color: #f28ccb;
+} 
+
+a {
+    color:#fff;
+    text-decoration: none;
+    
+}
+
+#list {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+        /*GENERAL*/
+body {
+    margin-bottom: 42%;
+    background-image:url(closet1.png);
+    border-image-width: 1080px;
+    
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
